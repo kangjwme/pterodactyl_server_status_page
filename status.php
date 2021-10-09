@@ -16,7 +16,7 @@
     $status = json_decode(file_get_contents('https://api.mcsrvstat.us/2/'.$configs['server_ip']));
     $resp_data = json_decode($resp, true);
     
-    if( $resp_data['attributes']['current_state'] == "stop" ) {
+    if( $resp_data['attributes']['current_state'] == "offline" ) {
 		echo '伺服器目前狀態：關閉</br></br>';
 		}elseif ($resp_data['attributes']['current_state'] == "starting"){
 		echo '伺服器目前狀態：開啟中</br></br>';
