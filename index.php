@@ -10,18 +10,6 @@
         <noscript>
             <link rel="stylesheet" href="assets/css/noscript.css" />
         </noscript>
-		<script>
-
-		function list_player() {
-			Swal.fire({
-			  title: '線上玩家清單',
-			  html:
-				'<?php $status = json_decode(file_get_contents('https://api.mcsrvstat.us/2/highschoolSMP.club')); foreach ($status->players->list as $player) {echo $player.'<br />';}?>',
-				confirmButtonText: '關掉吧'
-			  
-			})
-		}
-		</script>
         <script>
             window.onload=function(){
 				$('#status').load('status.php');
