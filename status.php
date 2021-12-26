@@ -23,7 +23,7 @@
 		}elseif ($resp_data['attributes']['current_state'] == "stopping"){
 		echo '伺服器目前狀態：關閉中</br></br>';
 		}else{
-		echo '伺服器目前狀態：開啟｜目前上線人數：'.$status->players->online.'人 <font onclick="list_player()">(點我看玩家清單)</font></br><br />';
+		echo '伺服器目前狀態：開啟</br><br />';
 		foreach ($status->motd->html as $motd) {
 		echo $motd.'<br />';
 		}	
