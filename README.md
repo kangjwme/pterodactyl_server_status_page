@@ -1,5 +1,7 @@
 # 基於 Pterodactyl 製作的小型伺服器資訊版面
 
+# 範例網頁：https://kangjw.me/mc-status/
+
 ## config.php
 - 基本參數設定
 - server_id：Pterodactyl 伺服器 ID，可以在網址找得到
