@@ -10,4 +10,7 @@
 - pterodactyl_url：Pterodactyl 網址，舉例：`https://panel.notafree.host` （請務必包含 http 或是 https）
 - pterodactyl_client_api：Pterodactyl 金鑰，請自行生成
 
+## 其他相關設定
+- 預設每 10 秒自動刷新
+- 頁面標題及網頁首頁標題預設根據 Pterodactyl 伺服器名稱決定
 丟進去通常即可使用，有任何問題請發 Issue 或通知 Discord：KJW#6666
