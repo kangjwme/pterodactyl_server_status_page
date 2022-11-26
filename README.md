@@ -1,6 +1,6 @@
 # 基於 Pterodactyl 製作的小型伺服器資訊版面
 
-# 範例網頁：https://kangjw.me/mc-status/
+# 範例網頁：https://kangjw.me/playground/mc-status/
 
 ## config.php
 - 基本參數設定
